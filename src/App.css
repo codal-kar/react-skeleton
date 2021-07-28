@@ -1,0 +1,84 @@
+/* sidebar styling */
+
+.sidebar-collapsed .right-sidebar {
+  padding-left: 80px;
+}
+
+.sidebar-collapsed .left-sidebar .ant-menu-item {
+  padding: 0 24px !important;
+}
+
+.sidebar-collapsed .left-sidebar .ant-menu-item a span:last-child {
+  opacity: 0;
+}
+
+.collapsed-logo {
+  opacity: 0;
+}
+
+.sidebar-collapsed .collapsed-logo {
+  opacity: 1;
+}
+
+.sidebar-collapsed .default-logo {
+  opacity: 0;
+  transition: all .4s ease;
+}
+
+.sidebar-collapsed .trigger-icon:hover {
+  margin-left: 3px !important;
+}
+
+.show-menu .trigger-icon {
+  display: block !important;
+}
+
+.left-sidebar {
+  width: 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+}
+
+.sidebar-collapsed .left-sidebar {
+  width: 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+}
+
+.top-section-header .right-header .top-search .ant-input {
+  padding-left: 0;
+}
+
+.ant-dropdown-menu {
+  box-shadow: 4px 0px 21px 0px rgba(0, 0, 0, 0.21) !important;
+  padding: 10px 0 !important;
+  z-index: 99 !important;
+}
+
+.ant-dropdown::before {
+  z-index: 999 !important;
+  height: 10px;
+}
+
+.right-sidebar .fixed .ant-badge-count {
+  line-height: 18px;
+  background: #ff5c5d;
+  right: 8px;
+}
+
+.ant-menu-item-selected a span {
+  transition: all .6s ease !important;
+  transition-delay: 0 !important;
+}
+
+.transition-off .left-sidebar .ant-menu li {
+  transition: all .2s ease !important;
+  transition-delay: 0 !important;
+}
+
+.transition-off .left-sidebar .ant-menu li a {
+  transition: all .1s ease !important;
+  transition-delay: 0 !important;
+}
+
+/**ant -menu --> sidebar icons --> sprite image*/
