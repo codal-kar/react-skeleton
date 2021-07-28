@@ -2,14 +2,14 @@
 
 
 # To Run the Project
-npm install
+npm install / 
 npm start
 
-#Contains
-React Hooks (JS)
-Redux 
-Antd 
+**#Contains**
+React Hooks (JS) /
+Redux /
+Antd /
 Server API
 
-#.env
+**#.env**
 Replace with Your Project Variables
